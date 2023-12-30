@@ -8,7 +8,7 @@ RUN         npm install npm@latest typescript ts-node @types/node --location=glo
 
 # Fix Perms Issue and install pnpm
 USER root
-RUN npm install -g pnpm
+RUN npm install pnpm --location=global
 
 USER        container
 ENV         USER=container HOME=/home/container
