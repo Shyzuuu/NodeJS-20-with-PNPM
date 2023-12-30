@@ -29,6 +29,5 @@ jobs:
       with:
         context: ./
         file: ./Dockerfile
-        platforms: linux/amd64,linux/arm64
         push: true
         tags: ghcr.io/shyzuuu/nodejs_20_pnpm:latest
