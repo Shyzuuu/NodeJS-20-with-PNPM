@@ -1,4 +1,4 @@
-name: Docker Update
+name: Docker Package Update
 
 on:
   push:
